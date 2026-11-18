@@ -9,9 +9,13 @@
       integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Home</title>
   </head>
-  <body class="bg-light mb-5 pb-5">
+  <body class="bg-light m-3 pb-5">
     <nav class="navbar bg-body-tertiary">
       <div class="container-lg justify-content-start">
         <a class="navbar-brand" href="#">Home</a>
@@ -20,7 +24,55 @@
         <a class="navbar-brand" href="html/contact.html">Contact</a>
       </div>
     </nav>
-    <h1>Welcome to Our Website</h1>
+    <div class="container-fluid">
+      <div class="row align-items-start">
+        <!-- Page content on the left -->
+        <div class="col-md-8">
+          <h1>Welcome to Our Website</h1>
+
+          <div class="alert alert-info" role="alert">
+            ALERT beautiful ALERT Beautiful person spotted ALERT
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div id="catCarousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="imgs/cat-laughing.jpg"
+                  class="d-block w-100 animate__animated animate__shakeX animate__infinite"
+                  alt="A cat laughing at you"
+                />
+                <p class="text-center mt-2">
+                  Here's a cat laughing at you. You can't stop him. also its on
+                  a carousel. OH he also animated. You can't stop him. You can't
+                  stop the cat.
+                </p>
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="imgs/cat-laughing.jpg"
+                  class="d-block w-100 animate__animated animate__shakeX animate__infinite"
+                  alt="A cat laughing at you"
+                />
+                <p class="text-center mt-2">Still here.</p>
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="imgs/cat-laughing.jpg"
+                  class="d-block w-100 animate__animated animate__shakeX animate__infinite"
+                  alt="A cat laughing at you"
+                />
+                <p class="text-center mt-2">There is no escape.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <footer class="fixed-bottom bg-light text-center py-3">
     <a><p>&copy; 2002 Our Company. All rights reserved.</p></a>
